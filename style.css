@@ -46,14 +46,14 @@ body{
     border-radius: 50%;
     border-left: 4px solid;
     border-right: 4px solid;
-    transform: skewX(20deg);
+    transform: skewX(30deg);
     color: #fff;
 }
 .wraper .icon:hover::after{
     border-radius: 50%;
     border-top: 4px solid;
     border-bottom: 4px solid;
-    transform: skewY(-20deg);
+    transform: skewY(-30deg);
     color: #fff;
 }
 .wraper .tooltip{
@@ -67,6 +67,7 @@ body{
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    cursor: pointer;
 }
 
 .wraper .icon:hover .tooltip{
@@ -77,4 +78,5 @@ body{
 }
 a{
     color: #fff;
+    text-decoration: none;
 }
